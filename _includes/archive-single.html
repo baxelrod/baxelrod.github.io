@@ -33,6 +33,21 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+    {% if post.ispublication %}
+    <div class="row">
+        <div class="col-md-7">
+            <a href="http://people.csail.mit.edu/baxelrod/#">
+                <img class="img-responsive" src="{{post.imagelocation}}" alt="" style="height:200px">
+            </a>
+        </div>
+        <div class="col-md-5">
+            <h4>{{post.venue}}</h4>
+            <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>
+            <a class="btn btn-primary" href="{{post.pdflocation}}">View PDF<span class="glyphicon glyphicon-chevron-right"></span></a>
+            <!--<a class="btn btn-primary" href="http://people.csail.mit.edu/baxelrod/papers/UncertainFunnels.pdf">View PDF<span class="glyphicon glyphicon-chevron-right"></span></a>-->
+        </div>
+    </div>
+    <hr>
+    {% elsif post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
   </article>
 </div>

@@ -5,7 +5,7 @@
     {% assign path_type = nil %}
 {% endcase %}
 
-{% if page.collection != 'posts' %}
+{% if page.collection != 'posts' and page.collection != 'publications'%}
   {% assign path_type = nil %}
   {% assign crumb_path = '/' %}
 {% else %}

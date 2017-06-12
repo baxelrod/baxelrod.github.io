@@ -5,6 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+
 # Site Settings
 locale                   : "en"
 title                    : ""
@@ -81,8 +82,8 @@ analytics:
 author:
   name             : "Brian Axelrod"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "MEng with LIS at MIT"
-  location         : 
+  bio              : "Brian Axelrod is currently an MEng with the Learning and Intelligent Systems Group at MIT"
+  location         : "MIT"
   email            : "baxelrod@csail.mit.edu"
   uri              :
   bitbucket        :
@@ -113,6 +114,8 @@ author:
 include:
   - .htaccess
   - _pages
+  - _posts
+  - _publications
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -237,12 +240,23 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
-      layout: single
+      layout: archive
       author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
+  # _publications
+  - scope:
+      path: "_pulications"
+      type: publications
+    values:
+      layout: archive
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
