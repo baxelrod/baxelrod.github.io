@@ -4,6 +4,6 @@ title: "Publications"
 
 author_profile: true
 path: "/publications/"
-layout: home
+layout: densepublist
 author_profile: true
 ---
