@@ -8,6 +8,7 @@ layout: archive
 author_profile: true
 ---
 ## subtitle?
-| test table number n | ga
-| --- | ---
-| entry | whoot
+
+| Title | Venue | PDF | additional info
+|---|---|{% for post in site.posts %}{% if post.title and post.ispublication%}
+|{{ post.title }}  | | [PDF]({{post.pdflocation}}) |[Click Here]({{ post.url }})  |{% endif %}{% endfor %}
