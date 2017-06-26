@@ -4,9 +4,15 @@ layout: archive
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_publications | default: "Recent Publications" }}</h3>
 
+| test table | ga
+| --- | ---
+| entry | whoot
+
 | Title | Link |
-|---|---|{% for post in site.posts %}{% if post.title and post.ispublication%}
-|{{ post.title }}  |[Click Here]({{ post.url }})  |{% endif %}{% endfor %}
+|---|---|
+{% for post in site.posts %}
+|{{ post.title }}  |[Click Here]({{ post.url }})  |{% endif %}
+{% endfor %}
 
 {% for post in site.posts %}
   {% if post.ispublication %}
