@@ -28,11 +28,11 @@ Lets say that we want to accelerate at acceleration \\(a_0\\) from a starting ve
 
 Integration gives us that the velocity is \\(v(t) = -v_0 + a_0 t\\), and the below plot of velocity versus time.
 
-![Velocity vs Time](\assets\images\trapplot.svg)
+![Velocity vs Time]({{site.baseurl | append: "/assets/images/trapplot.svg"}})
 
 Integrating again gives us position versus time \\(x(t) = -v_0 t + \frac{a_0}{2} t^2\\).
 
-![Position vs Time](\assets\images\parplot.png)
+![Position vs Time]({{site.baseurl | append: "/assets/images/parplot.png"}})
 
 Note that the position versus time is parabolic. The robot will be move slow close to the goal and fast far away. This is usually how we want our robot to behave---we really only need precision at the very end of our motions.
 
