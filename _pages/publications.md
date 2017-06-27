@@ -7,8 +7,6 @@ path: "/publications/"
 layout: archive
 author_profile: true
 ---
-## subtitle?
-
-| Title | Venue | PDF | additional info
+|Conference Papers
 |---|---|{% for post in site.posts %}{% if post.title and post.ispublication%}
-|{{ post.title }}  | | [PDF]({{post.pdflocation}}) |[Click Here]({{ post.url }})  |{% endif %}{% endfor %}
+|{{ post.title }}  | {{post.venue}}| [PDF]({{post.pdflocation}}) |[Publication Page]({{ post.url }})  |{% endif %}{% endfor %}

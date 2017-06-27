@@ -1,6 +1,9 @@
 ---
 layout: archive
 ---
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_publications | default: "Recent Publications" }}</h3>
 
@@ -12,10 +15,11 @@ layout: archive
 {% endfor %}
 
 
+
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
 {% for post in paginator.posts %}
-  {% if post.ispublication%}
+  {% if !post.ispublication%}
   {% else %}
     {% include archive-single.html %}
   {% endif %}
