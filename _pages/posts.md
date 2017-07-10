@@ -9,7 +9,7 @@ author_profile: true
 ---
 
 ### Note
-Old posts can be found on [www.axelbot.com](http://www.axelbot.com).
+This is mainly a set of notes that I shared with other people but didn't put too much effort into. Please let me know if something is wrong.  
 
 {% for post in site.posts %}
   {% if !post.ispublication%}
