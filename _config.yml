@@ -12,9 +12,10 @@ title                    : ""
 title_separator          : "-"
 name                     : "Brian Axelrod"
 description              : "Research Portfolio"
-url                      : "https://people.csail.mit.edu" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://cs.stanford.edu" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 #url                      : "https://people.csail.mit.edu" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/baxelrod" # the subpath of your site, e.g. "/blog"
+#url                      : "https://people.csail.mit.edu" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/people/baxelrod" # the subpath of your site, e.g. "/blog"
 #baseurl                  : "/baxelrod" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -82,9 +83,9 @@ analytics:
 author:
   name             : "Brian Axelrod"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Brian Axelrod is currently an MEng with the Learning and Intelligent Systems Group at MIT. He is joining the Stanford Theory group Fall 2017."
-  location         : "MIT"
-  email            : "baxelrod@mit.edu"
+  bio              : "Brian Axelrod is currently a CS PhD student in the Stanford Theory Group."
+  location         : "Stanford"
+  email            : "baxelrod@stanford.edu"
   uri              :
   bitbucket        :
   codepen          :

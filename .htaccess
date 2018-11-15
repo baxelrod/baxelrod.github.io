@@ -1,0 +1,4 @@
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTP_HOST} ^cs.stanford.edu/people/baxelrod/
+RewriteRule ^(.*)$ https://cs.stanford.edu/people/baxelrod/$1 [R,L]
