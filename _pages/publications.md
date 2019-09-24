@@ -6,6 +6,7 @@ author_profile: true
 path: "/publications/"
 layout: archive
 author_profile: true
+classes: wide
 ---
 |Conference and Journal Papers
 |---|---|{% for post in site.posts %}{% if post.title and post.ispublication%}

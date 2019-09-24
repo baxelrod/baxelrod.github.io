@@ -6,6 +6,8 @@ author_profile: true
 path: "/posts/"
 layout: archive
 author_profile: true
+
+classes: wide
 ---
 
 ### Note
