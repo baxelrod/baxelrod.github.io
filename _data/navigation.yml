@@ -6,6 +6,8 @@ main:
     url: /publications/
   - title: "Posts"
     url: /posts/
+  - title: "Bike Routes"
+    url: /routes/
 #  - title: "About"
 #    url: /about/
   # - title: "Sitemap"
