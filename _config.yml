@@ -20,10 +20,10 @@ title                    : "Brian Axelrod"
 title_separator          : "-"
 name                     : "Brian Axelrod"
 description              : "Research Portfolio"
-url                      : "https://cs.stanford.edu" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://baxelrod.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 #url                      : "https://people.csail.mit.edu" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 #url                      : "https://people.csail.mit.edu" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/people/baxelrod" # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 #baseurl                  : "/baxelrod" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -106,13 +106,13 @@ analytics:
 author:
   name             : "Brian Axelrod"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Brian Axelrod is currently a CS PhD student in the Stanford Theory Group."
-  location         : "Stanford"
-  email            : "baxelrod@cs.stanford.edu"
+  bio              : "Brian Axelrod focuses on deep learning representations and loss geometry as a lever for understanding and precisely shaping model outputs."
+  location         : "Bay Area"
+  email            : "baxelrodresearch@gmail.com"
   links:
     - label: "Email"
-      icon: "baxelrod@cs.stanford.edu"
-      url: mailto:baxelrod@cs.stanford.edu
+      icon: "baxelrodresearch@gmail.com"
+      url: mailto:baxelrodresearch@gmail.com
 
 # Site Footer
 #footer:

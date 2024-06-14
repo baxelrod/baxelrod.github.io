@@ -8,9 +8,11 @@ layout: archive
 author_profile: true
 classes: wide
 plotly: true
+
+
+jsarr:
+    - bikeroutes.js
 ---
 
 
-| test | test 2 | test 3 |
-| ----|---|---|
-|left| center | right |
+|left| placeholder_scatterplot | right |

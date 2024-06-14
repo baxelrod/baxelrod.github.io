@@ -11,7 +11,7 @@ tags: [sample amplification]
 ispublication: true
 imagelocation: /assets/images/tentsubdivision.png
 pdflocation: /pdfs/sampleamplification.pdf
-venue:
+venue: ICML 2020
 ---
 ## Abstract
 Given data drawn from an unknown distribution, \\(D\\), to what extent is it possible to "amplify" this dataset and faithfully output an even larger set of samples that appear to have been drawn from \\(D\\)?  

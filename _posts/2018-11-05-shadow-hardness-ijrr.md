@@ -11,7 +11,7 @@ tags: [robotics, uncertainty, shadows, algorithms]
 ispublication: true
 imagelocation: /assets/images/ucp.png
 pdflocation: /pdfs/shadow-hardness-ijrr.pdf
-venue: 
+venue: IJRR
 ---
 ## Abstract
 We consider the problem of motion planning in the presence of uncertain obstacles, modeled as polytopes with Gaussian-distributed faces (PGDF). A number of practical algorithms exist for motion planning in the presence of known obstacles by constructing a graph in configuration space, then efficiently searching the graph to find a collision-free path. We show that such a class of algorithms is unlikely to be practical in the domain with uncertain obstacles. In particular, we show that safe 2D motion planning among PGDF obstacles is $NP-$hard with respect to the number of obstacles, and remains $NP-$hard after being restricted to a graph. Our reduction is based on a path encoding of MAXQHORNSAT and uses the risk of collision with an obstacle to encode variable assignments and literal satisfactions. This implies that, unlike in the known case, planning under uncertainty is hard, even when given a graph containing the solution.

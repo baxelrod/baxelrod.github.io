@@ -11,4 +11,9 @@ src="{{site.baseurl | append: "/assets/js/plotly-latest.min.js"}}">
 </script>
 {% endif %}
 
+{% for js in page.jsarr %}
+<script type="text/javascript">
+{% include {{js}} %}
+</script>
+{% endfor %}
 <!-- end custom head snippets -->
